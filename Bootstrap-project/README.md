@@ -2,7 +2,7 @@
 
 
 ## Live Preview
-- GitHub Repo: 
+- GitHub Repo: https://github.com/AfaanWD/KeshavSoft-Bootstrap-5-Internship-Project-Afaan-Imran-Hameed-Mohamed
 - Live Site: 
 
 
@@ -33,4 +33,5 @@
 
 
 ## Time Taken
+
 Approx 
