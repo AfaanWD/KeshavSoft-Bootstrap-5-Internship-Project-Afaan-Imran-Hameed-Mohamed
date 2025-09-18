@@ -3,7 +3,7 @@
 
 ## Live Preview
 - GitHub Repo: https://github.com/AfaanWD/KeshavSoft-Bootstrap-5-Internship-Project-Afaan-Imran-Hameed-Mohamed
-- Live Site: 
+- Live Site: https://resonant-cajeta-99f46c.netlify.app/
 
 
 ## Step-by-Step Process
@@ -35,3 +35,4 @@
 ## Time Taken
 
 Approx 
+
