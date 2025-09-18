@@ -1,0 +1,15 @@
+:root {
+--brand: #0d6efd;
+}
+body {
+font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Arial;
+}
+.card {
+border: 0;
+}
+header h1, header p {
+color: #fff;
+}
+footer small {
+opacity: .8;
+}

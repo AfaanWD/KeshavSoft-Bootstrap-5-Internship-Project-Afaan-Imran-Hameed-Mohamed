@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Afaan | About</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">Afaan</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navmenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO INTRO -->
+  <header class="py-5 bg-light text-center">
+    <div class="container">
+      <h1 class="fw-bold">About Me</h1>
+      <p class="lead">Full Stack Developer | AI-ML Enthusiast | AWS Certified</p>
+    </div>
+  </header>
+
+  <!-- ABOUT -->
+  <main class="py-5">
+    <div class="container">
+      <p class="lead">I’m a B.Tech CSE student passionate about Full Stack Development, AI/ML, and Cloud Computing.</p>
+      <p>With experience in projects like Object Detection, Portfolio Management Systems, and web app clones, I aim to bring creativity and problem-solving to modern web solutions.</p>
+
+      <hr class="my-5">
+
+      <!-- EDUCATION -->
+      <h2 class="mb-4">Education</h2>
+      <ul class="list-group mb-5">
+        <li class="list-group-item">
+          <strong>B.Tech, Computer Science Engineering</strong> — Geethanjali College (2022–2026)
+        </li>
+        <li class="list-group-item">
+          <strong>Intermediate (MPC)</strong> — Toppers Junior College (2020–2022) • 87.8%
+        </li>
+        <li class="list-group-item">
+          <strong>SSC</strong> — Sai Siddhartha High School (2020) • CGPA: 10/10
+        </li>
+      </ul>
+
+      <!-- SERVICES -->
+      <h2 class="mb-4">Services</h2>
+      <div class="row g-4 mb-5">
+        <div class="col-md-4">
+          <div class="card h-100 text-center p-4">
+            <i class="bi bi-code-slash display-5 text-primary mb-3"></i>
+            <h5 class="card-title">Full Stack Development</h5>
+            <p class="card-text">HTML, CSS, JavaScript, React, Node.js, MongoDB.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 text-center p-4">
+            <i class="bi bi-cpu display-5 text-success mb-3"></i>
+            <h5 class="card-title">AI-ML Solutions</h5>
+            <p class="card-text">TensorFlow-based models for real-world applications.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 text-center p-4">
+            <i class="bi bi-cloud-check display-5 text-info mb-3"></i>
+            <h5 class="card-title">Cloud Services</h5>
+            <p class="card-text">AWS infrastructure & deployment expertise.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- CERTIFICATIONS -->
+      <h2 class="mb-4">Certifications</h2>
+      <ul class="list-group">
+        <li class="list-group-item">AWS Cloud Practitioner — Amazon Web Services</li>
+        <li class="list-group-item">Automation Expert — ACCELQ</li>
+        <li class="list-group-item">AI-ML Internship — EduSkills (Google AI-ML)</li>
+      </ul>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="py-4 bg-dark text-light text-center">
+    <small>&copy; <span id="year"></span> Afaan Imran Hameed Mohamed</small>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
